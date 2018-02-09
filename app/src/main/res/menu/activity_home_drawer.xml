@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:layout_width="match_parent"
+            android:icon="@mipmap/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_donor"
+            android:icon="@mipmap/ic_donor"
+            android:title="Donors" />
+        <item
+            android:id="@+id/nav_doc"
+            android:icon="@mipmap/ic_doctor"
+            android:title="Doctors" />
+        <item
+            android:id="@+id/nav_patient"
+            android:icon="@mipmap/ic_patient"
+            android:title="Patients" />
+
+        <item
+            android:id="@+id/users"
+            android:icon="@mipmap/ic_user"
+            android:title="Users" />
+
+
+
+    </group>
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@mipmap/ic_logout"
+        android:title="Logout" />
+
+</menu>
